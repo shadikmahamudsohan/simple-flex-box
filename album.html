@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .photo-frame {
+            width: 300px;
+            height: 200px;
+            border: 2px solid goldenrod;
+            border-radius: 5px;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(218, 161, 70, 0.5);
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .photo-detail {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+
+        .photo-detail h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .photo-detail p {
+            color: white;
+            text-align: justify;
+        }
+        .photo-frame:hover .photo {
+            transform: scale(1.5) skew(-10deg);
+            transition: transform 1s ease-in-out;;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My tiger album with html and css</h1>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Thiger mama kandid</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam obcaecati temporibus in nulla
+                    repellat iste tempore. Doloribus vero impedit ipsa cumque libero. Inventore architecto optio iusto,
+                    omnis explicabo beatae.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
